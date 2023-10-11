@@ -142,12 +142,11 @@ ul.main-menu li a.active {
 .hide {
   display:none;
 }
-
+.show {
+  display:block;
+}
 img {
     width: 80%; /* or any custom size */
     height: 80%; 
     object-fit: contain;
-}
-.show {
-  display:block;
 }
