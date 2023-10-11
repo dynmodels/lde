@@ -125,8 +125,8 @@ ul.main-menu {
   list-style: none;
 }
 ul.main-menu li a {
-  margin-right:20px;
-  font-size:2.0rem;
+  margin-right: 20px;
+  font-size: 2.0rem;
   border-bottom: solid transparent 3px;
   color:#cfd2da;
 }
@@ -146,7 +146,20 @@ ul.main-menu li a.active {
   display:block;
 }
 img {
-    width: 80%; /* or any custom size */
-    height: 80%; 
+  display: block;  
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px
+  width: 80%; /* or any custom size */
+  height: 80%;
+  object-fit: contain;
+}
+img.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px
+    width: 10%; /* or any custom size */
+    height: 10%; 
     object-fit: contain;
 }
